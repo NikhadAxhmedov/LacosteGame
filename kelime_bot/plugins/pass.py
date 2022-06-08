@@ -47,4 +47,4 @@ async def passs(c:Client, m:Message):
         else:
             await c.send_message(m.chat.id, f"<code>**❗ Geçiş Düz Saxlanıldı! </code> \n Oyunu diyandırmaq üçün /dayandir yazıb diyandıra Bilərsiniz✍🏻**")
     else:
-        await m.reply(f"❗ **Qrupunuzda aktif oyun tapılmadı!\n Yeni bir oyuna başlamaq üçün /basla yazabilərsiniz.✍🏻**")
+        await m.reply(f"❗ **Qrupunuzda aktiv oyun tapılmadı!\n Yeni bir oyuna başlamaq üçün /basla yazabilərsiniz.✍🏻**")
