@@ -11,33 +11,33 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 keyboard = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("➕ Qrupa Əlavə Et", url=f"http://t.me/SozTapmacaRobot?startgroup=new")
+        InlineKeyboardButton("🙁 Onsuzda Qrupa əlavə eliyəmmiyəcəysən", url=f"http://t.me/BanditosSozBot?startgroup=new")
     ],
     [
-        InlineKeyboardButton("Dev. 🐅", url="https://t.me/vusaliw"),
-        InlineKeyboardButton("Chat 🎉", url="https://t.me/AzeSohbetGurupu"),
+        InlineKeyboardButton("Qrup 🐊", url="https://t.me/BanditosQrup"),
+        InlineKeyboardButton("Sahib ⚜️", url="https://t.me/HusuSovetski"),
     ]
 ])
 
 
 START = """
-**• Salam 👋
+**• Salam ⚡
 
-• Mən Söz Oyun Botuyam 🎮 
+• Mən Söz @BanditosQrup'u üçün hazırlanmış oyun Botuyam 🎮 
 
 • Əyləncəli vaxt Keçirmək üçün Mənimlə Oynaya bilərsən ✍🏻 
 
-• Oynamaq üçün məni bir qrupa əlavə edib adçin etmək lazımdır . 💭**
+• Bot @BanditosQrup'u üçün hazırlandığı üçün digər qruplara icazə qadağa qoyulub . 🌪️**
 
-➤ Bilgi üçün 👉 /komek Tıklayın. Komutlar Asant və Rahatdır. 
+➤ Məlumat üçün 👉 /komek bas. Komandalar Asand və Rahatdır. 
 """
 
 HELP = """
-**✌️ Komutlar Menüsüne Hoşgeldiniz.**
-/basla - Oyunu Başladmak üçün..
+**✌️ Komandalar Menyusuja Xoşgəldin.📌**
+/basla - Oyunu Başlatmaq üçün..
 /pas - Cəmi 3 keçid Haqqınız Var.. 
-/reyting - Oyuncular arasındaki Xal bilgisi..
-/dayandir - Oyundan çıxmaq üçün lazımlı olan komutdur.. 
+/reyting - Oyuncular arasındaki Xal məlumatı..
+/dayandir - Oyundan çıxmaq üçün lazımlı olan komandasıdır.. 
 """
 
 # Komutlar. 
