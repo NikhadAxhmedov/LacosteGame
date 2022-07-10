@@ -23,17 +23,17 @@ keyboard = InlineKeyboardMarkup([
 START = """
 **• Salam ⚡
 
-• Mən Söz @BanditosQrup'u üçün hazırlanmış oyun Botuyam 🎮 
+• Mən Qruplar üçün hazırlanmış oyun Botuyam 🎮 
 
 • Əyləncəli vaxt Keçirmək üçün Mənimlə Oynaya bilərsən ✍🏻 
 
-• Bot @BanditosQrup'u üçün hazırlandığı üçün digər qruplara icazə qadağa qoyulub . 🌪️**
+• Bot 0 dan Yazılıb.**
 
 ➤ Məlumat üçün 👉 /komek bas. Komandalar Asand və Rahatdır. 
 """
 
 HELP = """
-**✌️ Komandalar Menyusuja Xoşgəldin.📌**
+**✌️ Komandalar Menyusuna Xoşgəldin.📌**
 /basla - Oyunu Başlatmaq üçün..
 /pas - Cəmi 3 keçid Haqqınız Var.. 
 /reyting - Oyuncular arasındaki Xal məlumatı..
