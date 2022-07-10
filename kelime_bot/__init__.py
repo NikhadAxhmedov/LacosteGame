@@ -18,7 +18,7 @@ LOGGER = logging.getLogger(__name__)
 API_ID = "17032930"
 API_HASH = "eb80de1a38db0d06656478bbeff23aee"
 TOKEN = "5449898899:AAHC52obWaCjQtMFXJU2ouQZqWWlg1Iu7I8" 
-USERNAME = "LacosteGameAzBot"
+USERNAME = "Lacostegame"
 
 
 
