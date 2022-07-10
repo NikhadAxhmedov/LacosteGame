@@ -1,4 +1,4 @@
-### Telegram Kelime Oyunu @Nevarevladim
+### Telegram Söz Oyunu @Axhmedov
 📝
 ## Deploy to Heroku
 
