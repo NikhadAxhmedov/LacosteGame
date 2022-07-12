@@ -23,21 +23,21 @@ keyboard = InlineKeyboardMarkup([
 START = """
 **• Salam 🇦🇿
 
-• Mən Qruplar üçün hazırlanmış oyun Botuyam 🎮 
+• Mən Qruplar üçün hazırlanmış oyun Botuyam 🇦🇿 
 
 • Əyləncəli vaxt Keçirmək üçün Mənimlə Oynaya bilərsən ✍🏻 
 
 • 🌐 Bot @Axhmedov Tərəfindən Yaradılmışdır.
 
-➤ Məlumat üçün 👉 /komek bas. Komandalar Asand və Rahatdır. 
+➤ Məlumat üçün 👉 /help bas. Komandalar Asand və Rahatdır. 
 """
 
 HELP = """
-**✌️ Komandalar Menyusuna Xoşgəldin.📌**
-/basla - Oyunu Başlatmaq üçün..
-/pass - Cəmi 3 keçid Haqqınız Var.. 
-/reyting - Oyuncular arasındaki Xal məlumatı..
-/dayandir - Oyundan çıxmaq üçün lazımlı olan komandasıdır.. 
+**⌨️ Əmrlər  Menyusuna Xoşgəldin.📌**
+/oyun - Oyunu başlatmaq üçün
+/kec - Üç dəfə işlədə bilərsiz, oyunu keçmək üçün
+/global - Global reytinq
+/cancel - Oyunda çıxmaq üçün lazım olan əmr
 """
 
 # Komutlar. 
@@ -45,12 +45,12 @@ HELP = """
 async def start(bot, message):
   await message.reply_photo("https://i.ibb.co/K6QTywd/images-17.jpg",caption=START,reply_markup=keyboard)
 
-@Client.on_message(filters.command("komek"))
+@Client.on_message(filters.command("help"))
 async def help(bot, message):
   await message.reply_photo("https://i.ibb.co/K6QTywd/images-17.jpg",caption=HELP) 
 
 # Oyunu başlat. 
-@Client.on_message(filters.command("basla")) 
+@Client.on_message(filters.command("oyun")) 
 async def kelimeoyun(c:Client, m:Message):
     global oyun
     aktif = False
@@ -61,14 +61,14 @@ async def kelimeoyun(c:Client, m:Message):
         aktif = False
 
     if aktif:
-        await m.reply("**❗ Oyun Qrupunuzda Artıq Davam Edir ✍🏻 \n Oyunu dayandırmaq üçün yazın /dayandir")
+        await m.reply("**❗ Oyun Qrupunuzda Artıq Davam Edir ✍🏻 \n Oyunu dayandırmaq üçün yazın /cancel")
     else:
         await m.reply(f"**{m.from_user.mention}** Tərəfindən! \nKəlimə Tapma Oyunu Başladı .\n\nBol Şanslar !", reply_markup=kanal)
         
         oyun[m.chat.id] = {"kelime":kelime_sec()}
         oyun[m.chat.id]["aktif"] = True
         oyun[m.chat.id]["round"] = 1
-        oyun[m.chat.id]["pass"] = 0
+        oyun[m.chat.id]["kec"] = 0
         oyun[m.chat.id]["oyuncular"] = {}
         
         kelime_list = ""
