@@ -14,20 +14,21 @@ keyboard = InlineKeyboardMarkup([
         InlineKeyboardButton("➕ Botu Qrupa Əlavə Et", url=f"http://t.me/LacosteGameAzBot?startgroup=new")
     ],
     [
-        InlineKeyboardButton("Qrup 🇦🇿", url="https://t.me/MorphinChat"),
-        InlineKeyboardButton("Sahib 🇹🇷", url="https://t.me/Axhmedov"),
+        InlineKeyboardButton("Yeniliklər 🔔", url="https://t.me/LacosteGameResmi"),
+        InlineKeyboardButton("Blog 📣", url="https://t.me/Axhmedovs
+        InlineKeyboardButton("Sahib 🌐", url="https://t.me/Axhmedov"),
     ]
 ])
 
 
 START = """
-**• Salam ⚡
+**• Salam 🇦🇿
 
 • Mən Qruplar üçün hazırlanmış oyun Botuyam 🎮 
 
 • Əyləncəli vaxt Keçirmək üçün Mənimlə Oynaya bilərsən ✍🏻 
 
-• Bot 0 dan Yazılıb.**
+• 🌐 Bot @Axhmedov Tərəfindən Yaradılmışdır.
 
 ➤ Məlumat üçün 👉 /komek bas. Komandalar Asand və Rahatdır. 
 """
