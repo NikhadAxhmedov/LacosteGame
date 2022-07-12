@@ -29,15 +29,15 @@ START = """
 
 • 🌐 Bot @Axhmedov Tərəfindən Yaradılmışdır.
 
-➤ Məlumat üçün 👉 /help bas. Komandalar Asand və Rahatdır. 
+➤ Məlumat üçün 👉 /komek bas. Komandalar Asand və Rahatdır. 
 """
 
 HELP = """
 **✌️ Komandalar Menyusuna Xoşgəldin.📌**
-/oyun - Oyunu Başlatmaq üçün..
-/kec - Cəmi 3 keçid Haqqınız Var.. 
+/basla - Oyunu Başlatmaq üçün..
+/pass - Cəmi 3 keçid Haqqınız Var.. 
 /reyting - Oyuncular arasındaki Xal məlumatı..
-/dayan - Oyundan çıxmaq üçün lazımlı olan komandasıdır.. 
+/dayandir - Oyundan çıxmaq üçün lazımlı olan komandasıdır.. 
 """
 
 # Komutlar. 
