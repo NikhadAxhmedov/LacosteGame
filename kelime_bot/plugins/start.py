@@ -34,10 +34,10 @@ START = """
 
 HELP = """
 **⌨️ Əmrlər  Menyusuna Xoşgəldin.📌**
-/oyun - Oyunu başlatmaq üçün
-/kec - Üç dəfə işlədə bilərsiz, oyunu keçmək üçün
-/global - Global reytinq
-/cancel - Oyunda çıxmaq üçün lazım olan əmr
+/basla - Oyunu başlatmaq üçün
+/pass - Üç dəfə işlədə bilərsiz, oyunu keçmək üçün
+/reyting - Global reytinq
+/dayandir - Oyunda çıxmaq üçün lazım olan əmr
 """
 
 # Komutlar. 
@@ -61,7 +61,7 @@ async def kelimeoyun(c:Client, m:Message):
         aktif = False
 
     if aktif:
-        await m.reply("**❗ Oyun Qrupunuzda Artıq Davam Edir ✍🏻 \n Oyunu dayandırmaq üçün yazın /cancel")
+        await m.reply("**❗ Oyun Qrupunuzda Artıq Davam Edir ✍🏻 \n Oyunu dayandırmaq üçün yazın /dayandir")
     else:
         await m.reply(f"**{m.from_user.mention}** Tərəfindən! \nKəlimə Tapma Oyunu Başladı .\n\nBol Şanslar !", reply_markup=kanal)
         
