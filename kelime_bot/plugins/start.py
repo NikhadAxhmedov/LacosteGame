@@ -38,8 +38,8 @@ HELP = """
 /pass - Üç dəfə işlədə bilərsiz, oyunu keçmək üçün
 /reyting - Global reytinq
 /dayandir - Oyunda çıxmaq üçün lazım olan əmr
+/Reklam - Bot olduğu Bütün qruplarda Reklam edər. 💸
 """
-
 # Komutlar. 
 @Client.on_message(filters.command("start"))
 async def start(bot, message):
