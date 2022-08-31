@@ -14,8 +14,8 @@ keyboard = InlineKeyboardMarkup([
         InlineKeyboardButton("➕ Botu Qrupa Əlavə Et", url=f"http://t.me/SozTapmaRobot?startgroup=new")
     ],
     [
-        InlineKeyboardButton("Yeniliklər 🔔", url="https://t.me/SozTapmaResmi"),
-        InlineKeyboardButton("Sahib 🌐", url="https://t.me/Axhmedov"),
+        InlineKeyboardButton("Blog 🌴", url="https://t.me/Nixhadx"),
+        InlineKeyboardButton("Sahib 🌐", url="https://t.me/Nixhadx1"),
     ]
 ])
 
@@ -32,13 +32,16 @@ START = """
 ➤ Məlumat üçün 👉 /help bas. Komandalar Asand və Rahatdır. 
 """
 
+REKLAM = """
+Reklam 5 AZN!🇦🇿 ucuz repoların Satışı Üçün @Nixhadx1 Yazın
+
 HELP = """
 **⌨️ Əmrlər  Menyusuna Xoşgəldin.📌**
 /basla - Oyunu başlatmaq üçün
 /pass - Üç dəfə işlədə bilərsiz, oyunu keçmək üçün
 /reyting - Global reytinq
 /dayandir - Oyunda çıxmaq üçün lazım olan əmr
-/Reklam - Bot olduğu Bütün qruplarda Reklam edər. 💸
+/Reklam - Reklam 5 AZN!🇦🇿 ucuz repoların Satışı Üçün @Nixhadx1 Yazın
 """
 # Komutlar. 
 @Client.on_message(filters.command("start"))
