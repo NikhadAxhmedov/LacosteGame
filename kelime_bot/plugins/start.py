@@ -27,20 +27,23 @@ START = """
 
 • Əyləncəli vaxt Keçirmək üçün Mənimlə Oynaya bilərsən ✍🏻 
 
-• 🌐 Bot @Axhmedov Tərəfindən Yaradılmışdır.
-
 ➤ Məlumat üçün 👉 /help bas. Komandalar Asand və Rahatdır. 
-"""
+
 
 REKLAM = """
 Reklam 5 AZN!🇦🇿 ucuz repoların Satışı Üçün @Nixhadx1 Yazın
+"""
 
 HELP = """
+➤  Əmirlər Menyusu
+
 /basla - Oyunu başlatmaq üçün
 /pass - Üç dəfə işlədə bilərsiz, oyunu keçmək üçün
 /reyting - Global reytinq
 /dayandir - Oyunda çıxmaq üçün lazım olan əmr
 """
+
+Əlaqə - @Nixhadx1 👨‍💻
 """
 # Komutlar. 
 @Client.on_message(filters.command("start"))
