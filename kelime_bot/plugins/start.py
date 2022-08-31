@@ -41,7 +41,7 @@ HELP = """
 /pass - Üç dəfə işlədə bilərsiz, oyunu keçmək üçün
 /reyting - Global reytinq
 /dayandir - Oyunda çıxmaq üçün lazım olan əmr
-/Reklam - Reklam 5 AZN!🇦🇿 ucuz repoların Satışı Üçün @Nixhadx1 Yazın
+"""
 """
 # Komutlar. 
 @Client.on_message(filters.command("start"))
