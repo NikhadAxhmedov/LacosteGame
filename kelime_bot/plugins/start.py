@@ -36,7 +36,7 @@ REKLAM = """
 Reklam 5 AZN!🇦🇿 ucuz repoların Satışı Üçün @Nixhadx1 Yazın
 
 HELP = """
-**Əmrlər Menyusu**
+**Əmirlər Menyusu**
 /basla - Oyunu başlatmaq üçün
 /pass - Üç dəfə işlədə bilərsiz, oyunu keçmək üçün
 /reyting - Global reytinq
