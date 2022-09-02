@@ -27,12 +27,9 @@ START = """
 
 • Əyləncəli vaxt Keçirmək üçün Mənimlə Oynaya bilərsən ✍🏻 
 
-➤ Məlumat üçün 👉 /help bas. Komandalar Asand və Rahatdır. 
-
-
 REKLAM = """
 Reklam 5 AZN!🇦🇿 ucuz repoların Satışı Üçün @Nixhadx1 Yazın
-"""
+""" 
 
 HELP = """
 ➤  Əmirlər Menyusu
